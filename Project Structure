@@ -1,0 +1,14 @@
+secure-task-api/
+│
+├── server.js
+├── package.json
+├── .env
+├── config/
+│   └── db.js
+├── middleware/
+│   └── auth.js
+├── routes/
+│   ├── authRoutes.js
+│   └── taskRoutes.js
+└── models/
+    └── userModel.js
