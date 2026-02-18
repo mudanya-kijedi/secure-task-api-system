@@ -1,30 +1,40 @@
 # Secure Task API System
 
-## Overview
-A production-style secure full-stack task management system designed with enterprise security architecture principles.
+A secure RESTful task management API built with Node.js and Express.
 
 ## Features
-- JWT Authentication
-- Role-Based Access Control (RBAC)
-- RESTful API
-- Secure password hashing
-- HTTPS-ready architecture
-- Input validation & sanitization
-- Rate limiting protection
+- JWT authentication
+- Password hashing
+- Protected routes
+- RESTful design
+- MongoDB integration
+- Secure middleware
 
 ## Tech Stack
-Backend: Node.js / Express  
-Frontend: React (or HTML JS )  
-Database: MySQL / MongoDB  
-
-## Security Architecture
-- Zero Trust principles
-- Secure headers
-- API token validation
-- Encrypted credentials
+- Node.js
+- Express
+- MongoDB
+- JWT
+- bcrypt
 
 ## Setup
-```bash
-git clone repo-url
 npm install
 npm start
+
+## API Endpoints
+
+POST /api/auth/register
+POST /api/auth/login
+GET /api/tasks
+POST /api/tasks
+DELETE /api/tasks/:id
+
+## Security Design
+- Token-based authentication
+- Encrypted passwords
+- Route protection middleware
+- Environment variables for secrets
+
+## Author
+Vincent Mudanya
+
